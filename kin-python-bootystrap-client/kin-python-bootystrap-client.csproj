@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>kin_python_bootystrap_client</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NJsonSchema" Version="9.13.28" />
+    <PackageReference Include="Refit" Version="4.7.9" />
+  </ItemGroup>
+
+</Project>
